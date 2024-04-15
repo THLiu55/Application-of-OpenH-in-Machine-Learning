@@ -26,6 +26,7 @@ $ source setacc.sh
 3). make
 
 4). set the env:
+
     ~~~sh
     export LD_LIBRARY_PATH=<dir to project root>/openhinstall/lib64:$LD_LIBRARY_PATH
     ~~~
