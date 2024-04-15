@@ -1,11 +1,13 @@
 ---------------------------------------------------------------------
 # Final Year Project
 Training machine learning model (Random Forest) hybridly using `OpenH`
+
 `OpenH`: Programming and Execution Model for Applications on Heterogeneous Hybrid Platforms
 
 ---------------------------------------------------------------------
 
 Hybrid Application Creator: Tianhao Liu
+
 OpenH Creators: Simon Farrelly and Ravi Reddy Manumachu
 
 ---------------------------------------------------------------------
