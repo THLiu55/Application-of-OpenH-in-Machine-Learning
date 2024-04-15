@@ -4,6 +4,8 @@
 
 `OpenH`: Programming and Execution Model for Applications on Heterogeneous Hybrid Platforms
 
+To make `OpenH` more portable, here I utilized `hwloc` to detect CPU topology. 
+
 ---------------------------------------------------------------------
 
 > Hybrid Application Creator: Tianhao Liu
