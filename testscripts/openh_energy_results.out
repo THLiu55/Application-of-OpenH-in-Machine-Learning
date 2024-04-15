@@ -1,0 +1,1001 @@
+nohup: ignoring input
+../openhinstall/Apps/mxmopt_oblas_cpu2 512 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 512 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 512 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 512 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 512 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 512 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 512 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 512 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 512 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 512 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24:  2627 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 512 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 512 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 512 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 512 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 512 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 512 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 512 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 512 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 512 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 512 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24:  3585 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 512 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 512 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 512 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 512 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 512 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 512 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 512 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 512 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 512 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 512 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24:  4454 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 1024 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 1024 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 1024 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 1024 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 1024 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 1024 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 1024 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 1024 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 1024 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 1024 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24:  5311 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 1024 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1024 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1024 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1024 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1024 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1024 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1024 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1024 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1024 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1024 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24:  6257 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 1024 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1024 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1024 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1024 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1024 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1024 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1024 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1024 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1024 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1024 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24:  7115 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 1536 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 1536 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 1536 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 1536 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 1536 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 1536 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 1536 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 1536 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 1536 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 1536 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24:  7974 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 1536 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1536 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1536 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1536 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1536 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1536 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1536 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1536 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1536 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1536 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24:  8924 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 1536 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1536 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1536 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1536 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1536 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1536 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1536 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1536 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1536 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 1536 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24:  9785 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 2048 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 2048 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 2048 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 2048 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 2048 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 2048 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 2048 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 2048 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 2048 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 2048 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 10651 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 2048 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2048 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2048 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2048 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2048 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2048 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2048 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2048 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2048 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2048 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 11636 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 2048 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2048 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2048 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2048 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2048 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2048 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2048 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2048 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2048 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2048 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 12630 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 2560 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 2560 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 2560 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 2560 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 2560 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 2560 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 2560 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 2560 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 2560 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 2560 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 13668 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 2560 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2560 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2560 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2560 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2560 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2560 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2560 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2560 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2560 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2560 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 14763 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 2560 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2560 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2560 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2560 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2560 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2560 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2560 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2560 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2560 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 2560 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 15803 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 3072 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 3072 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 3072 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 3072 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 3072 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 3072 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 3072 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 3072 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 3072 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 3072 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 16818 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 3072 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3072 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3072 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3072 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3072 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3072 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3072 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3072 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3072 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3072 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 17891 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 3072 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3072 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3072 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3072 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3072 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3072 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3072 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3072 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3072 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3072 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 18862 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 3584 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 3584 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 3584 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 3584 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 3584 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 3584 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 3584 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 3584 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 3584 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 3584 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 19775 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 3584 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3584 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3584 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3584 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3584 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3584 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3584 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3584 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3584 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3584 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 20783 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 3584 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3584 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3584 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3584 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3584 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3584 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3584 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3584 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3584 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 3584 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 21780 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 4096 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 4096 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 4096 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 4096 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 4096 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 4096 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 4096 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 4096 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 4096 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 4096 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 22773 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 4096 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4096 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4096 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4096 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4096 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4096 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4096 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4096 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4096 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4096 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 23835 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 4096 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4096 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4096 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4096 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4096 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4096 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4096 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4096 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4096 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4096 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 24860 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 4608 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 4608 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 4608 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 4608 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 4608 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 4608 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 4608 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 4608 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 4608 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 4608 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 25847 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 4608 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4608 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4608 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4608 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4608 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4608 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4608 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4608 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4608 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4608 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 26841 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 4608 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4608 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4608 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4608 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4608 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4608 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4608 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4608 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4608 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 4608 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 27754 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 5120 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 5120 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 5120 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 5120 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 5120 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 5120 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 5120 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 5120 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 5120 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 5120 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 28653 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 5120 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5120 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5120 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5120 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5120 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5120 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5120 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5120 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5120 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5120 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 29621 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 5120 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5120 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5120 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5120 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5120 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5120 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5120 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5120 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5120 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5120 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 30500 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 5632 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 5632 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 5632 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 5632 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 5632 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 5632 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 5632 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 5632 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 5632 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 5632 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 31379 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 5632 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5632 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5632 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5632 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5632 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5632 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5632 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5632 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5632 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5632 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 32335 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 5632 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5632 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5632 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5632 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5632 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5632 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5632 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5632 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5632 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 5632 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 33195 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 6144 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 6144 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 6144 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 6144 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 6144 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 6144 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 6144 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 6144 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 6144 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 6144 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 34057 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 6144 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6144 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6144 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6144 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6144 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6144 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6144 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6144 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6144 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6144 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 35014 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 6144 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6144 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6144 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6144 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6144 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6144 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6144 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6144 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6144 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6144 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 35878 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 6656 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 6656 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 6656 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 6656 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 6656 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 6656 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 6656 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 6656 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 6656 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 6656 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 36736 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 6656 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6656 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6656 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6656 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6656 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6656 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6656 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6656 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6656 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6656 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 37723 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 6656 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6656 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6656 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6656 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6656 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6656 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6656 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6656 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6656 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 6656 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 38584 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 7168 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 7168 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 7168 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 7168 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 7168 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 7168 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 7168 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 7168 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 7168 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 7168 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 39443 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 7168 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7168 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7168 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7168 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7168 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7168 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7168 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7168 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7168 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7168 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 40392 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 7168 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7168 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7168 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7168 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7168 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7168 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7168 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7168 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7168 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7168 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 41253 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 7680 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 7680 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 7680 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 7680 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 7680 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 7680 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 7680 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 7680 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 7680 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 7680 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 42112 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 7680 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7680 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7680 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7680 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7680 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7680 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7680 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7680 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7680 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7680 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 43058 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 7680 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7680 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7680 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7680 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7680 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7680 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7680 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7680 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7680 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 7680 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 43914 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 8192 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 8192 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 8192 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 8192 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 8192 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 8192 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 8192 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 8192 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 8192 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 8192 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 44777 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 8192 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8192 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8192 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8192 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8192 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8192 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8192 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8192 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8192 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8192 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 45723 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 8192 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8192 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8192 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8192 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8192 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8192 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8192 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8192 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8192 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8192 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 46580 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 8704 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 8704 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 8704 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 8704 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 8704 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 8704 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 8704 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 8704 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 8704 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 8704 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 47445 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 8704 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8704 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8704 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8704 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8704 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8704 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8704 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8704 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8704 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8704 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 48393 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 8704 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8704 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8704 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8704 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8704 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8704 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8704 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8704 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8704 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 8704 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 49248 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 9216 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 9216 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 9216 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 9216 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 9216 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 9216 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 9216 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 9216 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 9216 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 9216 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 50112 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 9216 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9216 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9216 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9216 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9216 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9216 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9216 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9216 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9216 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9216 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 51059 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 9216 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9216 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9216 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9216 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9216 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9216 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9216 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9216 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9216 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9216 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 51917 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 9728 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 9728 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 9728 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 9728 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 9728 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 9728 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 9728 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 9728 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 9728 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 9728 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 52790 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 9728 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9728 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9728 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9728 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9728 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9728 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9728 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9728 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9728 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9728 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 53745 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 9728 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9728 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9728 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9728 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9728 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9728 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9728 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9728 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9728 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 9728 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 54718 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 10240 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 10240 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 10240 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 10240 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 10240 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 10240 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 10240 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 10240 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 10240 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 10240 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 55715 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 10240 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10240 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10240 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10240 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10240 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10240 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10240 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10240 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10240 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10240 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 57082 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 10240 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10240 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10240 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10240 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10240 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10240 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10240 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10240 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10240 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10240 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 58039 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 10752 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 10752 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 10752 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 10752 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 10752 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 10752 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 10752 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 10752 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 10752 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 10752 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 58930 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 10752 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10752 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10752 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10752 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10752 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10752 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10752 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10752 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10752 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10752 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 59881 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 10752 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10752 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10752 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10752 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10752 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10752 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10752 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10752 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10752 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 10752 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 60742 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 11264 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 11264 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 11264 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 11264 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 11264 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 11264 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 11264 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 11264 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 11264 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 11264 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 61596 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 11264 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11264 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11264 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11264 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11264 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11264 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11264 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11264 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11264 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11264 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 62544 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 11264 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11264 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11264 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11264 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11264 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11264 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11264 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11264 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11264 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11264 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 63398 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 11776 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 11776 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 11776 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 11776 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 11776 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 11776 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 11776 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 11776 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 11776 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 11776 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 64266 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 11776 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11776 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11776 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11776 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11776 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11776 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11776 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11776 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11776 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11776 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 65211 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 11776 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11776 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11776 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11776 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11776 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11776 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11776 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11776 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11776 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 11776 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 66070 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 12288 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 12288 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 12288 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 12288 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 12288 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 12288 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 12288 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 12288 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 12288 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 12288 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 66991 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 12288 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12288 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12288 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12288 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12288 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12288 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12288 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12288 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12288 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12288 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 68041 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 12288 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12288 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12288 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12288 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12288 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12288 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12288 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12288 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12288 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12288 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 69198 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 12800 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 12800 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 12800 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 12800 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 12800 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 12800 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 12800 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 12800 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 12800 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 12800 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 70359 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 12800 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12800 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12800 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12800 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12800 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12800 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12800 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12800 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12800 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12800 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 71409 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 12800 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12800 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12800 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12800 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12800 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12800 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12800 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12800 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12800 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 12800 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 72322 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 13312 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 13312 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 13312 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 13312 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 13312 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 13312 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 13312 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 13312 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 13312 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 13312 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 73261 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 13312 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13312 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13312 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13312 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13312 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13312 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13312 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13312 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13312 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13312 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 74251 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 13312 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13312 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13312 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13312 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13312 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13312 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13312 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13312 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13312 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13312 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 75709 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 13824 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 13824 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 13824 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 13824 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 13824 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 13824 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 13824 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 13824 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 13824 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 13824 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 76577 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 13824 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13824 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13824 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13824 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13824 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13824 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13824 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13824 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13824 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13824 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 77569 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 13824 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13824 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13824 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13824 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13824 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13824 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13824 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13824 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13824 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 13824 30720 30720 1 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 78428 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_oblas_cpu2 14336 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 14336 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 14336 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 14336 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 14336 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 14336 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 14336 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 14336 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 14336 30720 30720 0
+../openhinstall/Apps/mxmopt_oblas_cpu2 14336 30720 30720 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 79362 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 14336 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 14336 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 14336 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 14336 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 14336 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 14336 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 14336 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 14336 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 14336 30720 30720 0 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 14336 30720 30720 0 0
+/opt/powertools/bin/wattsup1: no process found
+./mxmopt_hybrid_energies_oblas_cublas.sh: line 24: 80308 Killed                  $WATTSUP1 --interval=1 > wattsup1.data 2>&1
+../openhinstall/Apps/mxmopt_cublas_1gpu 14336 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 14336 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 14336 30720 30720 1 0
+../openhinstall/Apps/mxmopt_cublas_1gpu 14336 30720 30720 1 0

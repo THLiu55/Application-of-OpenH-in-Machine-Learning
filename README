@@ -1,0 +1,41 @@
+---------------------------------------------------------------------
+
+OpenH: Programming and Execution Model for Applications 
+on Heterogeneous Hybrid Platforms
+
+---------------------------------------------------------------------
+
+Creators: Simon Farrelly and Ravi Reddy Manumachu
+
+---------------------------------------------------------------------
+
+To build and install:
+
+1). cd <hclaffinity root directory>
+
+Replace '<hclaffinity root directory>' by the directory 
+where hclaffinity is downloaded.
+
+2). Set the OpenACC environment.
+
+$ source setacc.sh
+
+3). make
+
+4). To run tests,
+
+export LD_LIBRARY_PATH=$(pwd)/openhinstall/lib64:$LD_LIBRARY_PATH
+
+The tests and applications are installed in the openhinstall directory.
+
+---------------------------------------------------------------------
+
+Please send your feedback, bugs, and questions to:
+
+E-mail: ravi.manumachu@ucd.ie
+Ravi Reddy Manumachu
+School of Computer Science
+University College Dublin
+Dublin-4, Ireland
+
+---------------------------------------------------------------------

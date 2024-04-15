@@ -1,0 +1,22 @@
+../openhinstall/Apps/mxmopt_cublas_1gpu 14336 30720 30720 1 0
+Master thread pinned to the CPUs: 
+Accelerator component 0 pinned to the CPUs: 2 
+Starting gpu component 1 pthread.
+GPU Component 0: Performing matrix multiplication of 14336 x 30720 and 30720 x 30720 matrices.
+GPU ID 0, m 14336, n 30720, k 30720, Execution time 55.413400 seconds, Speed(GFLOPs) 488.298751
+MXM CUBLAS, M 14336, N 30720, K 30720, Execution time 55.413751 seconds, Speed(GFLOPs) 488.295656
+../openhinstall/Apps/mxmopt_cublas_1gpu 14336 30720 30720 1 0
+Master thread pinned to the CPUs: 
+Accelerator component 0 pinned to the CPUs: 2 
+Starting gpu component 1 pthread.
+GPU Component 0: Performing matrix multiplication of 14336 x 30720 and 30720 x 30720 matrices.
+GPU ID 0, m 14336, n 30720, k 30720, Execution time 55.387669 seconds, Speed(GFLOPs) 488.525597
+MXM CUBLAS, M 14336, N 30720, K 30720, Execution time 55.388031 seconds, Speed(GFLOPs) 488.522402
+../openhinstall/Apps/mxmopt_cublas_1gpu 14336 30720 30720 1 0
+Master thread pinned to the CPUs: 
+Accelerator component 0 pinned to the CPUs: 2 
+Starting gpu component 1 pthread.
+GPU Component 0: Performing matrix multiplication of 14336 x 30720 and 30720 x 30720 matrices.
+GPU ID 0, m 14336, n 30720, k 30720, Execution time 55.370438 seconds, Speed(GFLOPs) 488.677623
+MXM CUBLAS, M 14336, N 30720, K 30720, Execution time 55.370800 seconds, Speed(GFLOPs) 488.674427
+../openhinstall/Apps/mxmopt_cublas_1gpu 14336 30720 30720 1 0
