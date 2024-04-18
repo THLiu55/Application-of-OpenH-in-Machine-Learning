@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------
-# Final Year Project
+# Application of OpenH in training machine learning model in hybrid
 **Training machine learning model (Random Forest) hybridly using `OpenH`**
 
 `OpenH`: Programming and Execution Model for Applications on Heterogeneous Hybrid Platforms
@@ -8,9 +8,9 @@ To make `OpenH` more portable, here I utilized `hwloc` to detect CPU topology.
 
 ---------------------------------------------------------------------
 
-> Hybrid Application Creator: Tianhao Liu
-
 > OpenH Creators: Simon Farrelly and Ravi Reddy Manumachu
+
+> Hybrid Application Creator: Tianhao Liu
 
 ---------------------------------------------------------------------
 
