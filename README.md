@@ -2,9 +2,11 @@
 # Application of OpenH in training machine learning model in hybrid
 **Training machine learning model (Random Forest) hybridly using `OpenH`**
 
-`OpenH`: Programming and Execution Model for Applications on Heterogeneous Hybrid Platforms
+`OpenH`: A Programming and Execution Model for Applications on Heterogeneous Hybrid Platforms developed by heterogenous computing lab @ university college dublin
 
-To make `OpenH` more portable, here I utilized `hwloc` to detect CPU topology. 
+Link to paper: <a>https://hcl.ucd.ie/system/files/OpenH.pdf</a>
+
+To make `OpenH` more portable, I reconstruct the CPU topology detection part with `hwloc` 
 
 ---------------------------------------------------------------------
 
