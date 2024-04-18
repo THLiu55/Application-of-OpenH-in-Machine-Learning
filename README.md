@@ -24,16 +24,11 @@ To make `OpenH` more portable, here I utilized `hwloc` to detect CPU topology.
 
 ### To build and install:
 
-1. cd <hclaffinity root directory>
+1. ```cd <hclaffinity root directory>```
 
-Replace '<hclaffinity root directory>' by the directory 
-where hclaffinity is downloaded.
+2. ```$ source setacc.sh```
 
-2. Set the OpenACC environment.
-
-$ source setacc.sh
-
-3. make
+3. ```make```
 
 4. set the env:
 
