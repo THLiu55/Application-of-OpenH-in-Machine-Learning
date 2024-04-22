@@ -1,0 +1,404 @@
+\documentclass[11.5pt]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage[dvipsnames]{xcolor}  % 更全的色系
+\usepackage{listings}  % 排代码用的宏包
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% listings设置
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lstset{
+    language = Python,
+    backgroundcolor = \color{yellow!10},    % 背景色：淡黄
+    basicstyle = \small\ttfamily,           % 基本样式 + 小号字体
+    rulesepcolor= \color{gray},             % 代码块边框颜色
+    breaklines = true,                  % 代码过长则换行
+    numbers = left,                     % 行号在左侧显示
+    numberstyle = \small,               % 行号字体
+    keywordstyle = \color{blue},            % 关键字颜色
+    commentstyle =\color{gray},        % 注释颜色
+    stringstyle = \color{red!100},          % 字符串颜色
+    frame = shadowbox,                  % 用（带影子效果）方框框住代码块
+    showspaces = false,                 % 不显示空格
+    columns = fixed,                    % 字间距固定
+    morekeywords = {as},                % 自加新的关键字（必须前后都是空格）
+    deletendkeywords = {compile}        % 删除内定关键字；删除错误标记的关键字用deletekeywords删！
+}
+
+
+
+% Set margins
+\usepackage[margin=1in]{geometry}
+
+% Set character style
+\renewcommand{\familydefault}{\sfdefault}
+
+
+% Set line spacing
+\setstretch{1.2}
+
+\begin{document}
+
+% uncomplete Library Coding Assistant
+
+% Title section
+\title{Final Year Project Report}
+\author{Tianhao Liu (20205784)}
+
+
+
+\date{\today}
+\maketitle
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.3\textwidth]{/Users/liutianhao/Downloads/UCD_Dublin.png}
+\end{figure}
+
+
+\newpage
+
+% index
+\tableofcontents
+
+\newpage
+
+% list of graphs
+\listoffigures
+
+\listoftables
+
+\newpage
+
+
+\section{Introduction}
+In the competitive landscape of machine learning and high-performance computing, the efficiency of model training is a paramount concern that drives the adoption of innovative computational strategies. This paper presents a pioneering approach by introducing the first machine learning model that is trained using a hybrid infrastructure employing both Central Processing Units (CPUs) and Graphics Processing Units (GPUs). This novel training method capitalizes on the combined strengths of these processing units to optimize computation times and resource utilization.
+The integration of CPUs and GPUs for parallel computing has historically presented notable challenges, primarily due to the complexities of effective workload assignment and processor affinity. Traditional methods often failed to exploit the full potential of these heterogeneous systems due to several limitations inherent in existing tools such as improper thread placement, and suboptimal utilization of the differing architectures of CPUs and GPUs.
+To overcome these hurdles, our approach incorporates OpenH, an advanced hybrid programming model that leverages an integrated use of Pthreads, OpenMP, and OpenACC to facilitate the seamless integration of CPUs and GPUs\cite{paper1}. 
+The results from the deployment of this training methodology demonstrate the robust capability of the OpenH framework in managing and executing a balanced load across the hybrid system, maximizing the utilization efficiencies and markedly reducing the computational overhead associated with machine learning model training.
+In the following sections, we will provide an overview of the background, design, implementation, and results of this project, along with a discussion of potential future work and concluding remarks.
+
+\section{Background}
+The evolution of machine learning models and their increasing complexity has led to a significant surge in computational demands. Traditional single-processor systems often fall short in effectively managing the computational burdens associated with advanced algorithms, particularly in the realm of data-intensive tasks such as training deep neural networks. As such, the exploration of more capable and efficient systems has become a crucial research endeavor in this field.
+
+\subsection{Multi-Processor System}
+Historically, the transition from single-processor to multi-processor systems marked a significant leap in computational capabilities. 
+Multi-processor systems, utilizing either multiple CPUs or a combination of CPUs and GPUs, offer parallel processing capabilities that significantly accelerate computational tasks. CPUs, with their general-purpose architectures, are adept at handling complex instructions, while GPUs, originally designed for image processing, excel at executing simpler, concurrent tasks over large blocks of data.
+This architectural difference inherently positions GPUs as favorable for the parallel execution of numerous operations, which is a common requirement in machine learning tasks. 
+The advantages and underlying principles of multi-processor systems have been elaborated in key studies such as those by Flynn (1995) and Hennessy et al. (2011), providing foundational knowledge in processor architectures\cite{paper2} \cite{paper3}. 
+Despite the advantages, exploiting the full potential of these heterogeneous systems has been a challenging feat due to several technical and architectural hurdles. The parallelism inherent in machine learning tasks requires intricate coordination and efficient data handling capabilities between the different types of processors. Additionally, inherent differences in memory architecture and data processing paradigms between CPUs and GPUs often lead to bottlenecks, which can negate the benefits of parallel processing.
+
+\subsection{Hybrid Computing Challenges}
+Hybrid systems that synergize CPU and GPU capabilities aim to combine the strengths of both processor types to enhance performance and energy efficiency. 
+However, the practical realization of efficient hybrid computing encompasses addressing significant challenges, particularly in terms of synchronization, memory management, and resource allocation. Designing an infrastructure capable of effectively distributing workloads across both CPUs and GPUs—while concurrently minimizing data transfer overheads and optimizing resource utilization—poses a complex engineering task. This complexity demands a sophisticated and adaptive programming model tailored for hybrid environments.
+Existing programming models such as CUDA and OpenCL have been instrumental in enabling parallel processing on GPUs, but they often lack the flexibility and ease of use required for hybrid systems.
+In pursuit of maximizing the potential of hybrid systems, an integrated use of tools that are inherently designed for CPU parallelization, such as OpenMP, along with those tailored for GPU acceleration like OpenACC, is a promising strategy. These tools cater specifically to the distinct architectural needs of CPUs and GPUs respectively. However, the overarching challenge lies in the coherent integration of these diverse tools, as they were not originally designed to function in tandem.
+To bridge this gap, there emerges a critical need for a novel programming model that can facilitate the effective integration of CPU and GPU processing capabilities within a unified hybrid system framework. This is where OpenH steps in—an innovative model designed specifically to enable the efficient orchestration of hybrid computational resources.
+
+\subsection{OpenH}
+OpenH provides a sophisticated toolkit designed to address the nuances of thread management, synchronization, and effective workload distribution. 
+By mitigating the common obstacles associated with hybrid systems, such as inefficient thread placement and suboptimal processor utilization, OpenH enhances the ability of machine learning practitioners to harness the combined power of CPUs and GPUs.
+With OpenH, developers can seamlessly integrate Pthreads, OpenMP, and OpenACC to create a unified programming model that optimizes the execution of machine learning tasks across heterogeneous systems. 
+This integrated approach ensures that the computational load between CPUs and GPUs can be balanced effectively by users, thereby maximizing resource utilization and minimizing computational overheads.
+
+\subsection{Ensemble Learning Method}
+Ensemble learning is a robust machine learning paradigm where multiple models, often referred to as "weak learners," are trained to solve the same problem and then combined to improve the robustness and accuracy of predictions. 
+This technique capitalizes on the strength of numerous learners to achieve better performance than any single model could accomplish alone.
+The ensemble methods are generally classified into two main categories: bagging and boosting.
+\begin{itemize}
+    \item \textbf{Bagging (Bootstrap Aggregating):} 
+    Bagging involves training multiple models in parallel, each on a slightly different data sample—typically a random subset with replacement. The individual models are often less correlated with each other, allowing the ensemble to average out their biases and reduce variance. Decision trees are commonly used in bagging setups, with Random Forest being one of the most popular bagging ensemble methods.
+    \item \textbf{Boosting}:
+    Boosting involves sequentially training a series of models, where each new model attempts to correct errors made by the previous ones. The models build upon each other, learning from the mistakes, thus improving the overall performance. Gradient boosting and AdaBoost are prominent examples of this approach.
+\end{itemize}
+
+
+\subsection{Random Forest Model}
+The Random Forest algorithm, introduced by Breiman in 2001, is a powerful ensemble learning method that involves the aggregation of multiple decision trees to improve prediction accuracy and control over-fitting. 
+The model operates by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees. 
+Random Forests perform well with large data sets and are inherently suitable for parallel processing due to the independence of each decision tree during both training and inference phases. 
+This inherent characteristic makes them ideal candidates for hybrid CPU-GPU computing environments.
+
+\section{Project Design}
+\subsection{Overview}
+The project is designed to implement a hybrid training approach for a Random Forest model using OpenH, integrating both CPU and GPU resources. 
+The model's performance and resource utilization are then compared against implementations solely using OpenMP (CPU) and OpenACC (GPU).
+
+\subsection{Sytem Architecture}
+OpenH is used as the hybrid programming model to orchestrate the CPU and GPU resources effectively. 
+The system architecture is designed to distribute the workload between CPUs and GPUs using thread management and synchronization mechanisms provided by OpenH.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{/Users/liutianhao/Documents/forest_openH.png}
+    \caption{System Architecture}
+    \label{fig:system_architecture}
+\end{figure}
+
+% cite the figure: \ref{fig:system_architecture}
+
+As illustrated in the figure \ref{fig:system_architecture}, the system architecture comprises three main steps:
+\begin{itemize}
+    \item \textbf{Initiation:} 
+    The system initializes the training process by creating a thread and then use OpenH to detect device capabilities and allocate resources accordingly.    
+    \item \textbf{Training:} 
+    The training phase involves transferring data to different devices, setting up the thread affinity, and executing the Random Forest training algorithm in each accelerator. 
+    \item \textbf{Joining:} 
+    The results from different devices in training phase are gathered and combined to produce the final model output.
+\end{itemize}
+
+\subsection{Metrics}
+The performance of the hybrid training approach is evaluated by the execution time only since the primary goal is to optimize the training speed.
+
+\section{Experimental Setup}
+
+\begin{itemize}
+    \item \textbf{Dataset:}
+    The dataset used for training is Kuzushiji-49, a MNIST-like dataset that has 49 classes (28x28 grayscale, 270,912 images) from 48 Hiragana characters and one Hiragana iteration mark.
+
+    \begin{figure}[ht]
+        \centering
+        \includegraphics[width=0.5\textwidth]{/Users/liutianhao/Documents/dataset.png}
+        \caption{Dataset (Clanuwat et al.)\cite{paper4}}
+        \label{fig:dataset}
+    \end{figure}
+
+    \item \textbf{Library:}
+    The programming model is implemented using OpenH, which strategically integrates Pthreads, OpenMP, and OpenACC, enabling a robust hybrid programming environment suitable for high-performance computing.
+
+    \item \textbf{Profiling Tool:}
+    Profiling is conducted using NVIDIA Nsight Systems, providing a deep analysis of performance and GPU utilization to optimize computational workloads efficiently.
+
+    \item \textbf{Compiler:}
+    The compiler used for the implementation is NVC (NVIDIA HPC Compiler), fully supporting OpenH, OpenACC, and OpenMP directives.
+
+    \begin{table}[ht]
+        \centering
+        \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Compiler} & \textbf{OpenACC Support} & \textbf{OpenMP Support} \\
+        \hline
+        GCC & Partial & Yes \\ \hline
+        NVC & Yes & Yes \\ \hline
+        PGI & Yes & Yes \\ \hline
+        Clang & Limited & Yes \\ \hline
+        \end{tabular}
+        \caption{Compiler support for OpenACC and OpenMP}
+        \label{tab:compiler_support}
+    \end{table}
+
+    \item \textbf{Operating System:}
+    As the OpenH library utilizes the POSIX API for thread management, the experiments are conducted on a Linux-based operating system.
+
+    \item \textbf{Hardware:}
+    \begin{enumerate}
+        \item \textbf{CPU Architecture:} Intel(R) Xeon(R) Platinum 8362 CPU @ 2.80GHz, adept at handling high computational demands.
+        
+        \item \textbf{CPU Cores:} Dual-threaded 32 cores provide robust parallelism on 64 logical processors.
+        
+        \item \textbf{GPU Model:} Dual NVIDIA A40 GPUs, renowned for their high computational power and substantial memory allocation.
+        
+        \item \textbf{GPU Memory:} Each GPU supports 46,068 MiB, facilitating extensive parallel data processing.
+    \end{enumerate}
+
+    \begin{figure}[ht]
+        \centering
+        \includegraphics[width=0.8\textwidth]{/Users/liutianhao/Downloads/lstopo.png}
+        \caption{Hardware Configuration}
+        \label{fig:hardware}
+    \end{figure}
+
+\end{itemize}
+
+\section{Implementation}
+The implementation of our Random Forest training involved several key phases, focusing on profiling, parallelization, and efficient management of hybrid computing resources:
+
+\subsection{Profiling and Analysis}
+
+\subsubsection{Decision Tree Training Process}
+\begin{algorithm}
+    \caption{Decision Tree Training Process}\label{alg:decisiontree}
+    \begin{algorithmic}[1]
+    \Procedure{TrainDecisionTree}{$Data, DepthLimit$}
+        \If{$DepthLimit = 0$ \textbf{or} $Data$ is homogeneous}
+            \State \textbf{return} CreateLeaf($Data$)
+        \EndIf
+        \State $BestSplit \gets$ None
+        \State $MaxGain \gets 0$
+        \For{each feature $f$ in $Data$}
+            \State \color{red} $Split, Gain \gets$ FindBestSplit($Data, f$) \color{black} % Highlight this line
+            \If{$Gain > MaxGain$}
+                \State $BestSplit \gets Split$
+                \State $MaxGain \gets Gain$
+            \EndIf
+        \EndFor
+        \If{$BestSplit$ is None}
+            \State \textbf{return} CreateLeaf($Data$)
+        \EndIf
+        \State $LeftData, RightData \gets$ SplitData($Data, BestSplit$)
+        \State $LeftTree \gets$ \Call{TrainDecisionTree}{$LeftData, DepthLimit-1$}
+        \State $RightTree \gets$ \Call{TrainDecisionTree}{$RightData, DepthLimit-1$}
+        \State \textbf{return} CreateNode($BestSplit, LeftTree, RightTree$)
+    \EndProcedure
+    \end{algorithmic}
+\end{algorithm}
+
+\subsubsection{Profiling Results}
+Initial efforts were directed towards profiling the existing sequential decision tree training algorithm. It was determined that the major computational bottleneck was the function to find the best split feature and value, which consumed approximately 99\% of the training time. This insight was crucial as it highlighted a potential area for optimization through parallelization.
+
+\subsubsection{Profiling Analysis}
+The most computationally intensive tasks in training decision trees is the process of identifying the optimal split point at each node, known as 'finding the best split'. The significant time consumption of this process is attributed primarily to the series of operations required to evaluate every conceivable split across all features in a dataset.
+\newline
+\newline
+At each node, the decision tree algorithm assesses various possible ways to split the data based on each feature. This entails examining each unique feature value and computing a specific metric to ascertain the quality of the split. Common metrics used are information gain for classification tasks or variance reduction for regression. Calculating these metrics necessitates dividing the dataset into subsets according to the split criterion and subsequently measuring how well these subsets align with desired outcomes. For categorical targets, this might involve evaluating metrics such as entropy or class frequency, while for numerical targets, statistical operations like computing means and variances are necessary.
+\newline
+\newline
+The primary reason this task consumes considerable computational resources is its inherent complexity, often exacerbated by the size of the data and its feature space. The complexity reaches up to O(n * m * log(n)), where (n) is the number of data points and (m) is the number of features, exacerbated by the necessity for sorting data points for continuous features. Larger datasets further amplify computation times by linearly increasing the number of potential splits to be evaluated.
+\newline
+\newline
+Moreover, the procedure of iterating over all potential splits involves nested loops over data points and features, significantly increasing the total number of operations required. This exhaustive approach ensures that the algorithm considers all available information, but at the cost of increased computation time. 
+\newline
+\newline
+To mitigate these challenges, parallel computing is adapted where the task of evaluating different splits is distributed across multiple processors or GPUs. This division of labor can dramatically reduce the time required to find the optimal splits.
+
+
+
+\subsection{Parallelization}
+To address the identified computational bottleneck, we implemented parallelization at two levels: decision tree level and Random Forest level.
+
+
+\subsubsection{Decision Tree Level Parallelization::} 
+    \begin{enumerate}
+        \item \textbf{OpenACC:}
+        
+        Leveraging OpenACC, we parallelized the loop that iterates over potential splits within the decision tree construction. This allowed the harnessing of GPU resources to expedite the computation-heavy tasks of evaluating splits across multiple tree nodes concurrently.
+
+        \item \textbf{OpenMP:}
+        
+        Parallelization using OpenMP focused on distributing the workload of split evaluations across multiple threads in a shared-memory environment (CPUs). A dynamic scheduling approach was adopted to manage the distribution of tasks, ensuring that all CPU cores contributed to the computation effort efficiently.
+    \end{enumerate}
+Both parallel implementations aimed to minimize the time spent on the most computationally intensive part of the decision tree algorithms, thereby significantly reducing overall training time.
+    
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{/Users/liutianhao/Documents/find-split.png}
+    \caption{Parallelization of Find Best Split Function}
+    \label{fig:parallelization}
+\end{figure}
+
+
+\subsubsection{Random Forest Parallelization:} 
+    
+Random Forest model comprises several decision trees, each trained on a distinct data subset. In the implementation, subsets of data are assigned to different decision trees.
+User can effectively distribute the data subsets and corresponding decision tree computations across various accelerators (GPUs) and CPUs to achieve load balancing and optimal resource utilization.
+To ensure efficient data transfer and synchronization between devices, wen use OpenH to manage thread affinity and resolve conflicts arising from the simultaneous use of OpenMP and OpenACC. 
+In this process, OpenH is used to manage the thread affinity and resolve conflicts arising from the simultaneous use of OpenMP and OpenACC.
+
+\subsection{Aggregation and Model Output}
+Once all accelerators completed their designated tree computations, the trained decision trees were transferred back to the main thread for aggregation.
+These individual decision trees were combined to form the complete Random Forest model. This final step involved integrating the outputs from various compute nodes, culminating in a robust model ready for subsequent validation and application.
+
+\subsection{Performance Evaluation}
+The performance of the hybrid training approach was evaluated based on the execution time of the Random Forest training process.
+The training time was compared against implementations using OpenMP (CPU) and OpenACC (GPU) solely to assess the efficiency of the hybrid approach in optimizing training speed.
+
+\section{Results}
+The results of the hybrid training approach demonstrated a significant reduction in training time compared to the OpenMP and OpenACC implementations. 
+
+
+
+\section{Extra Contribution to OpenH}
+In addition to the implementation of the hybrid training approach, 
+I also made some contributions to the OpenH library.
+
+\subsection{Issue Encontered}
+To manage the thread affinity and resource allocation effectively, OpenH required a mechanism to detect the capabilities of the underlying devices. This involves identifying the number of CPUs and GPUs available, 
+as well as their topology. In the original OpenH implementation, the device detection process was completed by reading a static configuration file, which was not flexible enough to adapt to dynamic changes in the system configuration.
+This is because the mapping scheme between logical processors and physical cores can vary across different systems, necessitating a more adaptive approach to device detection.
+
+\subsection{Proposed Solution}
+For this kind of issue, instead of building wheels from scratch, we can utilize existing tools to facilitate the device detection process.
+In this case, I proposed the integration of hwloc \cite{hwloc}, a widely-used library for hardware locality, to OpenH. hwloc provides a comprehensive API for detecting and managing hardware resources, including CPUs, GPUs, and memory. 
+As shown in figure \ref{fig:hwloc}, hwloc offers detailed information about the system's hardware topology and provide a tree-like data structure, which can be used to identify the relationships between different hardware components. 
+By incorporating hwloc into OpenH, we can leverage its functionalities to dynamically detect the system's hardware configuration and topology, ensuring accurate and adaptable device detection.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.95\textwidth]{/Users/liutianhao/Documents/topo-hwloc.jpg}
+    \caption{hwloc topology data structure}
+    \label{fig:hwloc}
+\end{figure}
+
+\section{Future Work}
+The successful implementation of OpenH in training Random Forest models represents a significant advancement in the utilization of hybrid computing techniques for machine learning. This methodology has demonstrated substantial benefits in handling high-dimensional and large-scale data by efficiently distributing and balancing computational loads across both CPU and GPU resources. Looking ahead, there are several promising directions for extending this work to further enhance the capabilities and applications of ensemble machine learning techniques:
+\begin{itemize}
+    \item \textbf{Expansion to Other Ensemble Models:}
+    
+    Our current focus on Random Forest models opens the door to applying similar hybrid training methodologies to other ensemble-based machine learning models. 
+    Techniques such as boosting and stacking could benefit from the parallelization strategies developed in this project, potentially leading to significant performance improvements in a broader range of machine learning applications.
+
+    \item \textbf{Dynamic Load Balancing:}
+    
+    Currently, OpenH requires users to manually specify the distribution of data subsets and decision tree computations across different devices. 
+    Future work could explore the implementation of dynamic load balancing algorithms that automatically adjust the workload distribution based on the system's performance metrics and resource availability.
+
+    \item \textbf{Cross-Platform Scalability:}
+    
+    OpenH is currently based on POSIX APIs, limiting its portability across different operating systems.
+    However, its idea can be extended to other platforms, such as Windows, by leveraging platform-specific APIs and libraries to achieve cross-platform scalability.
+    Expanding the hybrid training framework to support a broader range of computing environments would enhance its accessibility and applicability in diverse machine learning scenarios.
+\end{itemize}
+
+\section{Conclusion}
+In conclusion, the incorporation of OpenH to facilitate the hybrid training of Random Forest models represents a transformative step in leveraging the full potential of modern computational resources.
+This approach not only maximizes the efficiencies of both CPU and GPU architectures but also serves as a blueprint for optimizing machine learning workflows that deal with extensive datasets and computationally intensive algorithms.
+Future explorations, as outlined, will focus on refining these methodologies and expanding their applications. By extending the hybrid training approach to encompass more algorithms and integrating advanced model management and scalability features, we aim to contribute further to the evolving field of machine learning. 
+
+
+\section{Acknowledgements}
+I would like to express my sincere gratitude to my supervisor, Prof. Alaxey Lastovetsky, for his invaluable guidance and support throughout this project. 
+His expertise and insights have been instrumental in shaping the direction and outcomes of this research. 
+Also, I would like to thank Dr. Ravi Manumachu for his suggestions and guidance on improving the OpenH library. 
+
+\newpage
+\begin{thebibliography}{9} % Specify the number of entries as the widest label (e.g., [9])
+
+    \bibitem{paper1} 
+    Farrelly, Simon, Ravi Reddy Manumachu, and Alexey Lastovetsky. 
+    ``OpenH: A Novel Programming Model and API for Developing Portable Parallel Programs on Heterogeneous Hybrid Servers.'' 
+    \textit{IEEE Access} 12 (2024): 23666-94.
+    
+    \bibitem{paper2}
+    Flynn, Michael J. 
+    \textit{Computer Architecture: Pipelined and Parallel Processor Design}. 
+    1st ed. USA: Jones and Bartlett Publishers, Inc., 1995. 
+    ISBN: 0867202041.
+    
+    \bibitem{paper3}
+    Patterson, David A., and John L. Hennessy. 
+    \textit{Computer Architecture: A Quantitative Approach}. 
+    1st ed. San Francisco, CA, USA: Morgan Kaufmann Publishers Inc., 1990. 
+    ISBN: 1558800698.
+
+    \bibitem{paper4}
+    Clanuwat, T., Bober-Irizar, M., Kitamoto, A., Lamb, A., Yamamoto, K., \& Ha, D.
+    "Deep learning for classical japanese literature".
+    arXiv preprint arXiv:1812.01718. 2018 Dec 3.
+
+    \bibitem{hwloc}
+    Broquedis, François, et al. 
+    ``hwloc: a Generic Framework for Managing Hardware Affinities in HPC Applications.''
+    \textit{PDP 2010 - The 18th Euromicro International Conference on Parallel, Distributed and Network-Based Computing}, Feb 2010, Pisa, Italy.
+
+    
+\end{thebibliography}
+
+
+
+\end{document}
