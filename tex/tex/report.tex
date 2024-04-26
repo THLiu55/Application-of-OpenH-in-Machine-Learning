@@ -120,14 +120,14 @@ However, while C++-based tools offer code portability by conforming to modern C+
 The existing tools and programming models for heterogeneous computing often face a trade-off between performance and portability.
 For example, OpenCL offers a comprehensive API that enables the programming of both CPU and accelerator program components, facilitating their integration into a unified hybrid application. Consequently, OpenCL competes with OpenMP in programming the CPU components of such hybrid programs and with vendor-specific APIs like CUDA when it comes to programming the accelerator components.
 According to the study by Kamran Karimi et al.\cite{opencl_openmp}, the performance of OpenCL and OpenMP on CPUs is comparable, with OpenCL shows a slight better performance when there are more outer iterations, as shown in figure \ref{fig:out_iter}, while OpenMP is faster when there are more inner iterations, as shown in figure \ref{fig:inner_iter}.
-\begin{figure}[ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.9\textwidth]{/Users/liutianhao/Documents/inner_iter.jpg}
     \caption{OpenCL/OpenMP running time ratios vs. innerIters (Kamran Karimi et al.\cite{opencl_openmp})}
     \label{fig:inner_iter}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.9\textwidth]{/Users/liutianhao/Documents/out_iter.jpg}
     \caption{OpenCL/OpenMP running time ratios vs. outerIters (Kamran Karimi et al.\cite{opencl_openmp})}
@@ -141,7 +141,7 @@ However, in terms of ease of use, OpenCL does entail more programming overhead. 
 From another research conducted by Kamran Karimi et al.\cite{cuda_opencl}, OpenCL is not comparable to CUDA in terms of performance on GPUs. As is shown in graph \ref{fig:opencl_openmp}, OpenCL is slower than CUDA on GPUs. 
 This performance gap is attributed to the fact that OpenCL is designed to be a general-purpose API, while CUDA is optimized for Nvidia GPUs.
 
-\begin{figure}[ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.9\textwidth]{/Users/liutianhao/Documents/cuda-opencl.jpg}
     \caption{OpenCL vs OpenMP on CPUs}
@@ -162,9 +162,9 @@ This approach enables OpenH to achieve superior performance portability by lever
 Ensemble learning is a robust machine learning paradigm where multiple models, often referred to as "weak learners," are trained to solve the same problem and then combined to improve the robustness and accuracy of predictions. 
 This technique capitalizes on the strength of numerous learners to achieve better performance than any single model could accomplish alone. 
 Figure \ref{fig:ensemble_learning} illustrates the concept of ensemble learning, where multiple models are trained independently and then combined to produce a final prediction.
-\begin{figure}[ht]
+\begin{figure}[h!]
     \centering
-    \includegraphics[width=0.9\textwidth]{/Users/liutianhao/Documents/ensemble-learning.jpg}
+    \includegraphics[width=0.7\textwidth]{/Users/liutianhao/Documents/ensemble-learning.jpg}
     \caption{Ensemble Learning (Mohammed et al. \cite{ensemble_learning})}
     \label{fig:ensemble_learning}
 \end{figure}
@@ -172,7 +172,7 @@ Figure \ref{fig:ensemble_learning} illustrates the concept of ensemble learning,
 Because of its capability to enhance predictive performance across models, ensemble learning has emerged as a significant research trend in recent years. 
 This trend has consequently resulted in a rise in the utilization of ensemble learning across various domains and applications.
 As is shown in figure \ref{fig:trend}, the number of publications on ensemble learning has been increasing steadily over the past decade, indicating the growing interest and relevance of this technique in the machine learning community.
-\begin{figure}[ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.9\textwidth]{/Users/liutianhao/Documents/trend.jpg}
     \caption{Trend in Ensemble Learning Research (Scopus \cite{scopus})}
@@ -194,7 +194,7 @@ Random forests consist of an amalgamation of tree predictors, where each tree re
 As the number of trees in the forest increases, the generalization error for forests asymptotically approaches a limit. 
 This generalization error of a forest composed of tree classifiers is contingent upon both the individual strength of the trees within the forest and the degree of correlation among them.
 Since random forests perform well with large data sets and are inherently suitable for parallel processing due to the independence of each decision tree during both training and inference phases, it is an ideal candidate for exploring hybrid computing strategies.
-\newpage
+
 \section{Project Design}
 \subsection{Overview}
 The project is designed to implement a hybrid training approach for a Random Forest model using OpenH, integrating both CPU and GPU resources. 
@@ -203,7 +203,7 @@ The model's performance and resource utilization are then compared against imple
 \subsection{Sytem Architecture}
 OpenH is used as the hybrid programming model to orchestrate the CPU and GPU resources effectively. 
 The system architecture is designed to distribute the workload between CPUs and GPUs using thread management and synchronization mechanisms provided by OpenH.
-\begin{figure}[ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.9\textwidth]{/Users/liutianhao/Documents/forest_openH.png}
     \caption{System Architecture}
@@ -233,13 +233,13 @@ For a machine learning model, there are many metrics used to evaluate its perfor
 However, these metrics are dependent one the data input and the hyper-parameters of the model.
 In this project, we are using parallel computing to train the Random Forest model, so these matrics are expected to be the same as the sequential training model.
 Therefore, the main metric we are focusing on is the training time only.
-\newpage
+
 \section{Experimental Setup}
 
 \subsection{Dataset}
 The dataset used for training is Kuzushiji-49, a MNIST-like dataset that has 49 classes (28x28 grayscale, 270,912 images) from 48 Hiragana characters and one Hiragana iteration mark.
 
-    \begin{figure}[ht]
+    \begin{figure}[h!]
         \centering
         \includegraphics[width=0.7\textwidth]{/Users/liutianhao/Documents/dataset.png}
         \caption{Dataset (Clanuwat et al.)\cite{paper4}}
@@ -256,7 +256,7 @@ Profiling is conducted using NVIDIA Nsight Systems, providing a deep analysis of
 The compiler used for the implementation is NVC (NVIDIA HPC Compiler), fully supporting OpenH, OpenACC, and OpenMP directives.  
 The compiler support for OpenACC and OpenMP is shown in table \ref{tab:compiler_support}.
 
-\begin{table}[ht]
+\begin{table}[h!]
     \centering
     \begin{tabular}{|c|c|c|}
     \hline
@@ -289,7 +289,7 @@ The compiler support for OpenACC and OpenMP is shown in table \ref{tab:compiler_
     \end{enumerate}
     The hardware configuration is depicted in figure \ref{fig:hardware}, which is generated using the lstopo tool.
 
-    \begin{figure}[ht]
+    \begin{figure}[h!]
         \centering
         \includegraphics[width=0.8\textwidth]{/Users/liutianhao/Downloads/lstopo.png}
         \caption{Hardware Configuration}
@@ -298,7 +298,7 @@ The compiler support for OpenACC and OpenMP is shown in table \ref{tab:compiler_
 
 \end{itemize}
 
-\newpage
+
 \section{Implementation}
 The implementation of our Random Forest training involved several key phases, focusing on profiling, parallelization, and efficient management of hybrid computing resources:
 
@@ -308,7 +308,7 @@ The implementation of our Random Forest training involved several key phases, fo
 The training process for a decision tree involves recursively partitioning the data based on the best split feature and value at each node.
 The pseudo-code for the decision tree training process is outlined in Algorithm \ref{alg:decisiontree}.
 
-\begin{algorithm}[ht]
+\begin{algorithm}[h!]
     \caption{Decision Tree Training Process}\label{alg:decisiontree}
     \begin{algorithmic}[1]
     \Procedure{TrainDecisionTree}{$Data, DepthLimit$}
@@ -368,7 +368,7 @@ During the implementation, I encountered several challenges and I tried differen
 The initial parallelization strategy focused on parallelizing the process of sub-tree generation, where training each sub-tree can be executed independently.
 This is because the data subsets used to train each sub-tree are distinct and do not overlap, making them ideal candidates for parallel execution.
 Here is the pseudo-code for the parallelization of the decision tree training process:
-\begin{algorithm}
+\begin{algorithm}[h!]
     \caption{Parallelization in Sub-tree Generation}\label{alg:gen}
     \begin{algorithmic}[1]
     \Procedure{TrainDecisionTree}{$Data, DepthLimit$}
@@ -383,7 +383,7 @@ Here is the pseudo-code for the parallelization of the decision tree training pr
 \end{algorithm}
 The red lines in the pseudo-code indicate the parallelized sections of the decision tree training process. 
 The left and right sub-trees are generated independently, allowing for parallel execution of the training process as the figure \ref{fig:gen} shows.
-\begin{figure}[ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.9\textwidth]{/Users/liutianhao/Documents/gen.png}
     \caption{Parallelization of Find Best Split Function}
@@ -406,7 +406,7 @@ Taken the previous experience, I tried a more fine-grained parallelization strat
 This process involves calculating the largest information gain across all features and their respective values. As this operation is computationally intensive and independent for each feature, it is well-suited for parallel execution.
 The pseudo-code for this parallelization strategy is as follows:
 
-\begin{algorithm}[ht]
+\begin{algorithm}[h!]
     \caption{Parallelization in Find Best Split Function}\label{alg:split}
     \begin{algorithmic}[1]
     \Procedure{FindBestSplit}{$Data$}
@@ -427,7 +427,7 @@ The pseudo-code for this parallelization strategy is as follows:
 The red line in the pseudo-code indicates the parallelized section of the decision tree training process.
 The process of finding the best split feature and threshold is parallelized across all features, enabling concurrent evaluation of potential splits and enhancing computational efficiency, as shown in figure \ref{fig:parallelization}.
 
-\begin{figure}[ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.9\textwidth]{/Users/liutianhao/Documents/find-split.png}
     \caption{Parallelization of Find Best Split Function}
@@ -448,7 +448,7 @@ To facilitate efficient data transfer and synchronization between devices, we ut
 As illustrated in the pseudo-code of the Random Forest training process in Algorithm \ref{alg:randomforest}, the training process comprises two primary phases: training decision trees on CPUs and GPUs, and aggregating the results to form the final Random Forest model.
 
 Code segments highlighted in red and blue are designated to different threads for training decision trees on CPUs and GPUs, respectively. Once all threads complete their assigned tasks, the results are automatically combined to generate the final Random Forest model.
-\begin{algorithm}[ht]
+\begin{algorithm}[h!]
     \caption{Random Forest Level Parallelization}\label{alg:randomforest}
     \begin{algorithmic}[1]
     \Procedure{TrainDecisionTreeOnCPU} {$SampledData, DepthLimit$}
@@ -489,7 +489,6 @@ This aggregation process avoids potential conflicts arising from concurrent memo
 The performance of the hybrid training approach was evaluated based on the execution time of the Random Forest training process.
 The training time was compared against implementations using OpenMP (CPU) and OpenACC (GPU) solely to assess the efficiency of the hybrid approach in optimizing training speed.
 
-\newpage
 \section{Results}
 To use the hybrid training model effectively, we need to determine the optimal workload distribution between CPUs and GPUs.
 The workload distribution is determined based on the performance of each device, ensuring that the training process is efficiently balanced across all available resources.
@@ -503,7 +502,7 @@ There are several possible reasons for this result.
 One reason is that the dataset is not large enough to fully utilize the GPU resources.
 Another reason is that the training process is not optimized for GPU, for example, too much data transfer between CPU and GPU making the training process slower.
 
-\begin{figure}[ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.9\textwidth]{/Users/liutianhao/Documents/comp.jpg}
     \caption{Training Time vs. Dataset Size}
@@ -514,7 +513,7 @@ Another reason is that the training process is not optimized for GPU, for exampl
 Although the current version of GPU training have a huge space for improvement, we can still utilize the hybrid training approach to improve the overall training speed.
 The figure \ref{fig:dataset2} shows the training time of the Random Forest model using the hybrid training approach.
 
-\begin{figure}[ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.9\textwidth]{/Users/liutianhao/Documents/hybrid.jpg}
     \caption{Training Time vs. Dataset Size (Hybrid Training)}
@@ -549,9 +548,17 @@ To further optimize the GPU training process, we can consider the following aspe
     \item \textbf{Try Other Parallel Programming models:}
     If the OpenACC model is not efficient enough, we can try other parallel programming models like CUDA or OpenCL.
     Since OpenH supports multiple parallel programming models, we can easily switch between different models to find the most efficient one for our application.
+    As is shown in figure \ref{fig:benchmarks}, different parallel programming models have different performance on different devices.
+    The best strategy is to try different models and choose the one that best fits our application.
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.9\textwidth]{/Users/liutianhao/Documents/benchmarks.jpg}
+        \caption{OpenCL vs OpenACC vs CUDA (Memti et al. \cite{benchmark})}
+        \label{fig:benchmarks}
+    \end{figure}
 \end{itemize}
 
-\newpage
 \section{Additional Contribution to OpenH}
 OpenH has recently been developed and has limited documentation, with full testing yet to be completed. 
 During the implementation of the Random Forest model, I encountered a portability issue with OpenH, necessitating further modifications to improve its adaptability and usability. 
@@ -598,7 +605,7 @@ Just as the old saying goes in industry, "Don't reinvent the wheel", the hwloc l
 
 After spending time learning hwloc, I found that hwloc offers detailed information about the system's hardware topology and provide a tree-like data structure as shown in figure \ref{fig:hwloc}, which can be used to identify the relationships between different hardware components. 
 
-\begin{figure}[ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=1.1\textwidth]{/Users/liutianhao/Documents/topo-hwloc.jpg}
     \caption{hwloc topology data structure}
@@ -617,7 +624,6 @@ By testing the ability of hwloc to detect GPU devices, I found that its GPU dete
 Since there is no standard API for different GPU vendors, building the wheels from scratch is the only way to detect GPU devices accurately.
 
 
-\newpage
 \section{Future Work}
 The successful implementation of OpenH in training Random Forest models represents a significant advancement in the utilization of hybrid computing techniques for machine learning. This methodology has demonstrated substantial benefits in handling high-dimensional and large-scale data by efficiently distributing and balancing computational loads across both CPU and GPU resources. Looking ahead, there are several promising directions for extending this work to further enhance the capabilities and applications of ensemble machine learning techniques:
 
@@ -642,17 +648,27 @@ In my project, memory switch between CPU and GPU is a major bottleneck, future w
 While OpenH currently supports Pthreads, OpenMP, and OpenACC, future work could explore integrating additional parallel programming models, such as OpenCL, CUDA, Kokkos, and OCCA, to provide users with a more comprehensive set of tools for hybrid computing.
 As the core of OpenH is designed to be extensible and decentralized, integrating new parallel programming models would enhance its flexibility and adaptability to diverse hardware architectures.
 
-\newpage
-\section{Conclusion}
-In conclusion, the incorporation of OpenH to facilitate the hybrid training of Random Forest models represents a transformative step in leveraging the full potential of modern computational resources.
-This approach not only maximizes the efficiencies of both CPU and GPU architectures but also serves as a blueprint for optimizing machine learning workflows that deal with extensive datasets and computationally intensive algorithms.
-Future explorations, as outlined, will focus on refining these methodologies and expanding their applications. By extending the hybrid training approach to encompass more algorithms and integrating advanced model management and scalability features, we aim to contribute further to the evolving field of machine learning. 
 
+\section{Summary}
+\subsection{My Contributions}
+In this project, I successfully implemented a hybrid training model for Random Forest using OpenH, a novel programming model and API designed for developing portable parallel programs on heterogeneous hybrid servers. Prior to this project, OpenH had only been tested in limited toy examples, such as matrix multiplication. Additionally, I proposed a solution to enhance the device detection process within OpenH by integrating the hwloc library, a widely-used tool for hardware topology detection. This solution has been implemented, tested, and integrated into the new version of OpenH, enabling improved device detection capabilities.
+
+\subsection{Challenges}
+Developing a parallel program posed significant challenges, particularly due to the inherent complexity of GPU programming and the difficulty in debugging parallel programs. Furthermore, crafting a complex model with a parallel programming model added to the complexity. Additionally, I encountered portability issues with OpenH, as it was a relatively new library with limited documentation.
+
+\subsection{Overcoming Challenges}
+To overcome these challenges, I extensively studied documentation and materials related to parallel programming models and GPU programming. I decomposed the program into manageable parts and wrote numerous unit tests to test them individually. While debugging parallel programs remained challenging, this approach facilitated quicker bug detection and more efficient bug resolution. Additionally, I addressed the portability issue by delving into the OpenH source code, engaging in discussions with OpenH developers, and proposing a solution to enhance device detection within OpenH.
+
+\subsection{What I Have Learned}
+Throughout this project, I gained invaluable insights into parallel programming models and the development of parallel programs. I learned techniques for optimizing the performance of parallel programs and addressing portability issues with new libraries. Furthermore, my ability to comprehend and work with others' code has improved, along with my problem-solving skills.
 
 \section{Acknowledgements}
 I would like to express my sincere gratitude to my supervisor, Prof. Alaxey Lastovetsky, for his invaluable guidance and support throughout this project. 
 His expertise and insights have been instrumental in shaping the direction and outcomes of this research. 
 Also, I would like to thank Dr. Ravi Manumachu for his suggestions and guidance on improving the OpenH library. 
+
+\section{Repository}
+The source code of the project is available on GitHub at the following link: \url{https://csgitlab.ucd.ie/liutianhao/hybrid-training}
 
 \newpage
 \begin{thebibliography}{9} % Specify the number of entries as the widest label (e.g., [9])
@@ -762,6 +778,12 @@ Also, I would like to thank Dr. Ravi Manumachu for his suggestions and guidance 
     Broquedis, François, et al. 
     ``hwloc: a Generic Framework for Managing Hardware Affinities in HPC Applications.''
     \textit{PDP 2010 - The 18th Euromicro International Conference on Parallel, Distributed and Network-Based Computing}, Feb 2010, Pisa, Italy.
+
+    \bibitem{benchmark}
+    Memeti, Suejb, Lu Li, Sabri Pllana, Joanna Kolodziej, and Christoph Kessler.
+    "Benchmarking OpenCL, OpenACC, OpenMP, and CUDA: Programming Productivity, Performance, and Energy Consumption."
+    arXiv preprint arXiv:1704.05316. 2017 Apr 18.
+
     
 \end{thebibliography}
 
