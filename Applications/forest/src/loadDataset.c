@@ -382,9 +382,11 @@ void OnReadData(char* filename, int flag) {
             end = strchr(begin, (int)('\t'));
 
             if (!end) {
-                printf("(%d, %d)", i, j);
-                fprintf(stderr, "line 404 tab wasn't found.\n");
-                exit(-1);
+                end = strchr(begin, (int)('\n'));
+                if (!end) {
+                    fprintf(stderr, "line %d: tab or newline wasn't found.\n", __LINE__);
+                    exit(-1);
+                }
             }
             memset(rawData[i][j], 0, MAX_LEN);
             strncpy(rawData[i][j], begin, end - begin);
@@ -409,14 +411,20 @@ void OnReadData(char* filename, int flag) {
     if (flag == 1) {
         ConstructMap();
     }
+    printf("construct map\n");
     ConvertRawData2Map(flag);
 }
 
 
 void LoadDataset(int argc, char* argv[]) {
     Read(argc, argv);
+    printf("read data\n");
     MallocMemory();
+    printf("malloc memory\n");
     InitMapName();
+    printf("init map name\n");
     OnReadData(trainingSetFile, 1);
+    printf("read training data\n");
     OnReadData(testingSetFile, 2);
+    printf("read testing data\n");
 }
